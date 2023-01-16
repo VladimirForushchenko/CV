@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:regular,700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="./img/cv-icon.png" type="image/png">
+	<title>CV Volodymyr Forushchenko</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<a href="#" data-goto=".main">
+						<img src="./img/cv-icon.png" alt="Logo">
+					</a>
+				</div>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a data-goto=".main" href="#" class="menu__link">Home</a>
+						</li>
+						<li class="menu__item">
+							<a data-goto=".about" href="#" class="menu__link">About Me</a>
+						</li>
+						<li class="menu__item">
+							<a data-goto=".contacts" href="#" class="menu__link">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main">
+				<div class="main__container">
+					<div class="main__content">
+						<h1 class="main__title">
+							CREATIVE WEB <span>DEVELOPER</span>
+						</h1>
+						<div class="main__buttons">
+							<a href="#" data-goto=".contacts" class="main__hire-button button">Hire me</a>
+							<a href="#" class="main__cv-button button button_dark">
+								<span>Download CV</span>
+							</a>
+						</div>
+					</div>
+					<div class="main__image">
+						<img src="img/main/image.svg" alt="Image">
+					</div>
+				</div>
+			</section>
+			<section class="page__about about">
+				<div class="about__container">
+					<div class="about__content">
+						<h2 class="about__title title">About <span>me</span></h2>
+						<div class="about__text">
+							<p>
+								Greetings!
+								<hr>
+								My name is <span>Volodymyr Forushchenko</span>.
+								<hr>
+								I am a JS Web Developer with
+								great desire for career growth and just
+								a
+								nice person :)
+								<hr>
+								The code will save the world! &#169
+							</p>
+						</div>
+					</div>
+					<div class="about__image">
+						<img src="img/about/image.svg" alt="Image">
+					</div>
+				</div>
+			</section>
+			<section class="page__works works">
+				<div class="works__container">
+					<h2 class="works__title title">
+						My recent <span>works</span>
+					</h2>
+					<div class="works__items items-works">
+						<nav class="items-works__navigation">
+							<button data-work-type="" class="items-works__type button button_dark active">All</button>
+							<button data-work-type="HTML" class="items-works__type button button_dark">HTML</button>
+							<button data-work-type="CSS" class="items-works__type button button_dark">CSS</button>
+							<button data-work-type="VUE" class="items-works__type button button_dark">Vue.js</button>
+						</nav>
+						<div class="items-works__body">
+							<a data-work-type="HTML" href="img/works/items/012.png" class="items-works__item">
+								<div class="items-works__image">
+									<div class="items-works__image-hover">Look</div>
+									<img src="img/works/items/012.png" alt="Image">
+								</div>
+							</a>
+							<a data-work-type="HTML" href="img/works/items/02.png" class="items-works__item">
+								<div class="items-works__image">
+									<div class="items-works__image-hover">Look</div>
+									<img src="img/works/items/02.png" alt="Image">
+								</div>
+							</a>
+							<a data-work-type="HTML" href="img/works/items/03.png" class="items-works__item">
+								<div class="items-works__image">
+									<div class="items-works__image-hover">Look</div>
+									<img src="img/works/items/03.png" alt="Image">
+								</div>
+							</a>
+							<a data-work-type="CSS" href="img/works/items/04.png" class="items-works__item">
+								<div class="items-works__image">
+									<div class="items-works__image-hover">Look</div>
+									<img src="img/works/items/04.png" alt="Image">
+								</div>
+							</a>
+							<a data-work-type="CSS" href="img/works/items/05.png" class="items-works__item">
+								<div class="items-works__image">
+									<div class="items-works__image-hover">Look</div>
+									<img src="img/works/items/05.png" alt="Image">
+								</div>
+							</a>
+							<a data-work-type="VUE" href="img/works/items/06.png" class="items-works__item">
+								<div class="items-works__image">
+									<div class="items-works__image-hover">Look</div>
+									<img src="img/works/items/06.png" alt="Image">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__contacts contacts">
+				<div class="contacts__container">
+					<div class="contacts__content">
+						<h2 class="contacts__title title">
+							Got a project in <span>mind?</span>
+						</h2>
+						<div class="contacts__image">
+							<img src="img/contacts/image.svg" alt="Image">
+						</div>
+					</div>
+					<form action="#" class="contacts__form form" id="form">
+						<div class="form__item">
+							<label for="name" class="form__label">Your name</label>
+							<input id="name" type="text" class="form__input input-name _req" placeholder="Name" name="name">
+						</div>
+						<div class="form__item">
+							<label for="mail" class="form__label">Your email</label>
+							<input id="mail" type="email" class="form__input input-mail _req _email" placeholder="Email" name="email">
+						</div>
+						<div class="form__item">
+							<label for="message" class="form__label">Your Message</label>
+							<textarea id="message" class="form__input input-message" placeholder="Message" name="message"></textarea>
+						</div>
+						<div class="form__item">
+							<div class="checkbox">
+								<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req">
+								<label for="formAgreement" class="checkbox__label"><span>I give my consent to the processing of
+										personal
+										data
+										in accordance with the <a href="">Terms</a>*</span>
+								</label>
+							</div>
+						</div>
+						<div class="form__item">
+							<button type="submit" class="form__button button input-send" id="send-message">
+								<span>Send Message</span>
+							</button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<nav class="footer__menu menu-footer">
+					<ul class="menu-footer__list">
+						<li class="menu-footer__item">
+							<a href="#" data-goto=".main" class="menu-footer__link menu-footer__link_home">Home</a>
+						</li>
+						<li class="menu-footer__item">
+							<a href="#" data-goto=".about" class="menu-footer__link menu-footer__link_about">About me</a>
+						</li>
+						<li class="menu-footer__item">
+							<a href="#" data-goto=".contacts" class="menu-footer__link menu-footer__link_contacts">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="footer__social social">
+					<a href="https://www.facebook.com/profile.php?id=100014390620011" class="social__link" target="_blank">
+						<img src="img/icons/facebook.svg" alt="facebook">
+					</a>
+					<a href="https://www.instagram.com/vladimirforushchenko/" class="social__link" target="_blank">
+						<img src="img/icons/instagram.svg" alt="instagram">
+					</a>
+					<a href="https://www.linkedin.com/in/volodymyr-forushchenko-web-developer/" class="social__link"
+						target="_blank">
+						<img src="img/icons/linkedin.svg" alt="linkedin">
+					</a>
+					<a href="https://github.com/VladimirForushchenko" class="social__link" target="_blank">
+						<img src="img/icons/github.svg" alt="github">
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+	<script>
+		$(".items-works__body").magnificPopup({
+			delegate: "a",
+			type: "image",
+			gallery: {
+				enabled: true
+			}
+		});
+	</script>
+</body>
+
+</html>
