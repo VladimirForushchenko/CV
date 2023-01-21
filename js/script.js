@@ -20,7 +20,6 @@ function documentActions(e) {
 				behavior: "smooth"
 			});
 		}
-
 		e.preventDefault();
 	}
 
@@ -122,3 +121,19 @@ async function formSend(e) {
 	function emailTest(input) {
 		return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);
 	}
+
+
+// Download CV =======================================
+
+let downloadCV = document.querySelector('#download');
+
+downloadCV.addEventListener('click', downloadFunc);
+
+function downloadFunc(){
+	var anchor = document.createElement('a');
+	anchor.setAttribute('href','./SV_Volodymyr_Forushchenko.docx');
+	anchor.setAttribute('download','');
+	document.body.appendChild(anchor);
+	anchor.click();
+	anchor.parentNode.removeChild(anchor); 
+}
