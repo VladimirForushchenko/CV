@@ -137,3 +137,5 @@ function downloadFunc(){
 	anchor.click();
 	anchor.parentNode.removeChild(anchor); 
 }
+
+

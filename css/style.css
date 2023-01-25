@@ -224,6 +224,7 @@ body {
 	backdrop-filter: blur(2px);
 	border-radius: 16px;
 	padding: 45px;
+	position: relative;
 	
 }
 
@@ -274,9 +275,36 @@ body {
 	max-width: 80vw !important;
 }
 
-.video {
-	width: 300px;
+.items-works__github {
+	position: absolute;
+	top: 88%;
+	left: 90%;
 }
+
+.items-works__web {
+	position: absolute;
+	top: 88%;
+	left: 2%;
+}
+
+.items-works__github,
+.items-works__web {
+	background-color: #393e46;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: background-color 0.3s ease 0s;
+	z-index: 2;
+}
+
+.items-works__github:hover,
+.items-works__web:hover {
+	background-color: #00adb5;
+}
+
 
 @media (max-width: 1280px) {
 	.works {
