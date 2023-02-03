@@ -86,12 +86,12 @@
 					<div class="works__items items-works">
 						<nav class="items-works__navigation">
 							<button data-work-type="" class="items-works__type button button_dark active">All</button>
-							<button data-work-type="HTML" class="items-works__type button button_dark">HTML</button>
-							<button data-work-type="CSS" class="items-works__type button button_dark">CSS</button>
+							<button data-work-type="HTML-CSS" class="items-works__type button button_dark">HTML+CSS</button>
+							<button data-work-type="JS" class="items-works__type button button_dark">JavaScript</button>
 							<button data-work-type="VUE" class="items-works__type button button_dark">Vue.js</button>
 						</nav>
 						<div class="items-works__body">
-							<a data-work-type="HTML" href="img/works/items/01.png" class="items-works__item">
+							<a data-work-type="HTML-CSS" href="img/works/items/01.png" class="items-works__item">
 								<div class="items-works__image">
 									<div class="items-works__image-hover">Look</div>
 									<img src="img/works/items/01.png" alt="Image">
@@ -105,8 +105,7 @@
 									<img src="img/icons/web.svg" alt="web">
 								</div>
 							</a>
-
-							<a data-work-type="HTML" href="img/works/items/02.png" class="items-works__item">
+							<a data-work-type="HTML-CSS" href="img/works/items/02.png" class="items-works__item">
 								<div class="items-works__image">
 									<div class="items-works__image-hover">Look</div>
 									<img src="img/works/items/02.png" alt="Image">
@@ -120,7 +119,7 @@
 									<img src="img/icons/web.svg" alt="web">
 								</div>
 							</a>
-							<a data-work-type="HTML" href="img/works/items/03.png" class="items-works__item">
+							<a data-work-type="HTML-CSS" href="img/works/items/03.png" class="items-works__item">
 								<div class="items-works__image">
 									<div class="items-works__image-hover">Look</div>
 									<img src="img/works/items/03.png" alt="Image">
@@ -134,7 +133,7 @@
 									<img src="img/icons/web.svg" alt="web">
 								</div>
 							</a>
-							<a data-work-type="CSS" href="img/works/items/04.png" class="items-works__item">
+							<a data-work-type="JS" href="img/works/items/04.png" class="items-works__item">
 								<div class="items-works__image">
 									<div class="items-works__image-hover">Look</div>
 									<img src="img/works/items/04.png" alt="Image">
@@ -148,17 +147,17 @@
 									<img src="img/icons/web.svg" alt="web">
 								</div>
 							</a>
-							<a data-work-type="CSS" href="img/works/items/05.png" class="items-works__item">
+							<a data-work-type="JS" href="img/works/items/05.png" class="items-works__item">
 								<div class="items-works__image">
 									<div class="items-works__image-hover">Look</div>
 									<img src="img/works/items/05.png" alt="Image">
 								</div>
 								<div class="items-works__github"
-									onclick="window.open('https://github.com/VladimirForushchenko', '_blank');">
+									onclick="window.open('https://github.com/VladimirForushchenko/Project-6_Shoes-shop', '_blank');">
 									<img src="img/icons/github.svg" alt="github">
 								</div>
 								<div class="items-works__web"
-									onclick="window.open('https://vladimirforushchenko.github.io/Project_1-OnWave/', '_blank');">
+									onclick="window.open('https://lambent-strudel-c0ee55.netlify.app/', '_blank');">
 									<img src="img/icons/web.svg" alt="web">
 								</div>
 							</a>
@@ -255,19 +254,11 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/script.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
 		crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
-	<script>
-		$(".items-works__body").magnificPopup({
-			delegate: "a",
-			type: "image",
-			gallery: {
-				enabled: true
-			}
-		});
-	</script>
+	<script src="js/script.js"></script>
+	<script src="./js/popup.js"></script>
 </body>
 
 </html>

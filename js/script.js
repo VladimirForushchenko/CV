@@ -126,7 +126,6 @@ async function formSend(e) {
 // Download CV =======================================
 
 let downloadCV = document.querySelector('#download');
-
 downloadCV.addEventListener('click', downloadFunc);
 
 function downloadFunc(){
