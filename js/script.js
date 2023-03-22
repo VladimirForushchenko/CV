@@ -130,7 +130,7 @@ downloadCV.addEventListener('click', downloadFunc);
 
 function downloadFunc(){
 	var anchor = document.createElement('a');
-	anchor.setAttribute('href','./SV_Volodymyr_Forushchenko.docx');
+	anchor.setAttribute('href','./Resume_Volodymyr_Forushchenko_JS_Web_Developer.pdf');
 	anchor.setAttribute('download','');
 	document.body.appendChild(anchor);
 	anchor.click();
